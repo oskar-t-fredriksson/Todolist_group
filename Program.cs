@@ -23,9 +23,8 @@ namespace Todolist_group
         static void Main(string[] args)
         {
             //Test Path C:\Users\oskar\todo2.lis
-            //Welcome
             Console.WriteLine("The Todolist!");
-            Console.WriteLine("Menu:");           
+            Console.WriteLine("--Menu--");           
             //Variables
             List<Activity> mainTodoList = new List<Activity>();
             string command;
